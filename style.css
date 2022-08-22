@@ -121,6 +121,7 @@ body {
     position: absolute;
     left: 7rem;
     top: 22rem;
+    z-index: 10;
 }
 .home .home_container .content p {
     font-family: 'Poppins';
