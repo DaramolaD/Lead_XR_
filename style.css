@@ -147,13 +147,85 @@ body {
 }
 
 
-
-
-
-
-
-
-
+/* about */
+.about {
+    width: 100%;
+    background-image: url(./img/Virtual_Reality_black_man.png);
+    position: relative;
+    color: #220606;
+    display: flex;
+    justify-content: center;
+    min-height: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position-y: 0;
+}
+.about .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    height: 80%;
+    margin: 65px 0 0 0;
+    position: relative;
+}
+.about .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about .container .content .title {
+    width: 640px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48.83px;
+    line-height: 73px;
+    text-align: center;
+    padding-bottom: 48px;
+    color: #220606;
+    position: relative;
+}
+.about .container .content .text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #220606;
+    width: 614px;
+    height: 160px;
+ }
+.about .container .content .btn {
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+.about .container .content .btn  button {
+    width: 141px;
+    height: 53px;
+    background: #AC1F1F;
+    border: 1px solid #AC1F1F;
+    padding: 10px;
+    color: #FCEAAB;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+ }
 
 
 
@@ -238,10 +310,10 @@ footer .container .social_links h3 {
     padding-bottom: 6px;
 }
 
-footer .container .quicklinks .list{
+/* footer .container .quicklinks .list{ */
     /* gap: 3px;
 display: grid; */
-}
+/* } */
 
 footer .container .quicklinks .list li,
 footer .container .resources .list li,
