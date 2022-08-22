@@ -80,6 +80,8 @@ body {
     padding-top: 8rem;
     position: relative;
     overflow: hidden;
+    width: 100%;
+    /* height: 90vh; */
 }
 .home .home_container{
     margin: auto;
@@ -121,6 +123,12 @@ body {
     font-size: 48.83px;
     line-height: 73px;
     gap: 80px;
+
+    margin: 0;
+    position: relative;
+    left: 10%;
+    top: 1px;
+    width: 30%;
 }
 .home .home_container .content p {
     width: 640px;
