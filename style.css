@@ -185,7 +185,7 @@ body {
     flex-direction: column;
 }
 .about .container .content .title {
-    width: 640px;
+    width: 725px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -237,7 +237,12 @@ body {
 /* footer */
 
 footer {
+    width: 100%;
     background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer .container {
     width: 80%;
@@ -246,6 +251,7 @@ footer .container {
     gap: 71.6px;
     padding-top: 38px;
     padding: 38px 0 38px 0;
+    justify-content: center;
 }
 footer .container .logo_teams {
     max-width: 325.71px;
