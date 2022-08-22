@@ -76,11 +76,15 @@ body {
     width: 100%;
     justify-content: space-between;
 }
+main {
+    width: 100%;
+}
 .home {
     padding-top: 8rem;
     position: relative;
     overflow: hidden;
     width: 100%;
+    position: relative;
     /* height: 90vh; */
 }
 .home .home_container{
@@ -90,6 +94,7 @@ body {
     padding-bottom: 1%;
     justify-content: flex-end;
     width: 100%;
+    position: relative;
 }
 
 
@@ -161,6 +166,7 @@ body {
     background-size: cover;
     background-origin: border-box;
     background-position-y: 0;
+    position: relative;
 }
 .about .container {
     width: 90%;
@@ -183,6 +189,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .about .container .content .title {
     width: 725px;
@@ -207,11 +214,13 @@ body {
     color: #220606;
     width: 614px;
     height: 160px;
+    position: relative;
  }
 .about .container .content .btn {
     width: 100%;
     justify-content: flex-end;
     display: flex;
+    position: relative;
 }
 .about .container .content .btn  button {
     width: 141px;
@@ -225,7 +234,8 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
- }
+    position: relative;
+}
 
 
 
@@ -243,6 +253,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 footer .container {
     width: 80%;
@@ -252,11 +263,13 @@ footer .container {
     padding-top: 38px;
     padding: 38px 0 38px 0;
     justify-content: center;
+    position: relative;
 }
 footer .container .logo_teams {
     max-width: 325.71px;
     max-height: 317px;
     color: #CCA003;
+    position: relative;
 }
 footer .container .logo_teams .logo {
     width: 128.07px;
