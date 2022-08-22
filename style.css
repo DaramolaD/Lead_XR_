@@ -113,12 +113,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* position: relative; */
+    position: relative;
     width: 50%;
     /* padding-top: 2rem;
     padding-left: 2rem; */
-
-    position: absolute;
+    top: 5rem;
+    /* position: absolute; */
     left: 7rem;
     top: 20rem;
     z-index: 10;
