@@ -97,16 +97,26 @@ main {
     overflow: hidden;
     width: 100%;
     position: relative;
+    background-image: url(./img/home_Man_VR_Headset.png);
     /* height: 90vh; */
+
+    background-repeat: no-repeat;
+    background-size: 55rem;
+    background-position-x: right;
+    height: 165.5vh;
+    margin-top: 10rem;
 }
 .home .home_container{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     /* padding-top: 8%; */
     padding-bottom: 1%;
     justify-content: flex-end;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
+    margin-left: 5rem;
+    margin-top: 3.5em;
+    width: 640px;
 }
 
 
@@ -127,13 +137,13 @@ main {
  } */
 
 .home .home_container .content {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     left: 10%;
-    top: 20rem;
-    width: 640px;
+    /* top: 20rem;
+    width: 640px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -143,9 +153,9 @@ main {
 
     margin: 0;
     position: relative;
-    left: 10%;
+    /* left: 10%; */
     top: -30px;
-    width: 30%;
+    /* width: 30%; */
 }
 .home .home_container .content p {
     width: 640px;
