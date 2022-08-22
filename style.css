@@ -145,3 +145,137 @@ body {
 .home .home_container .img .img1 {
     width: 90%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background: #000000;
+}
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 71.6px;
+    padding-top: 38px;
+    padding: 38px 0 38px 0;
+}
+footer .container .logo_teams {
+    max-width: 325.71px;
+    max-height: 317px;
+    color: #CCA003;
+}
+footer .container .logo_teams .logo {
+    width: 128.07px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+}
+footer .container .logo_teams .logo p {
+    padding-top: 1px;
+    padding-bottom: 16px;
+    text-align: right;
+    width: 76.64px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A38002;
+    opacity: 0.7;
+    align-self: end;
+}
+footer .container .logo_teams .objective {
+    padding: 16px 0 26px 0px;
+    width: 258.15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCA003;
+}
+footer .container .logo_teams .details {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+footer .container .logo_teams .details span {
+    font-weight: bold;
+}
+footer .container .quicklinks {
+    max-width: 179.5px;
+}
+footer .container .quicklinks h3,
+footer .container .resources h3,
+footer .container .social_links h3 {
+    width: 210.76px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: -0.06em;
+    color: #CCA003;
+    padding-bottom: 6px;
+}
+
+footer .container .quicklinks .list{
+    /* gap: 3px;
+display: grid; */
+}
+
+footer .container .quicklinks .list li,
+footer .container .resources .list li,
+footer .container .social_links .list li {
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 247.5%;
+    width: 179.5px;
+}
+footer .container .quicklinks .list a,
+footer .container .resources .list a,
+footer .container .social_links .list a {
+    text-decoration: none;
+    color: #7B6002;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer .container .social_links .list span {
+    padding-left: 13.8px;
+}
+ footer .last {
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.3672px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 44.13px;
+}
