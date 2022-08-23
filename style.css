@@ -103,8 +103,9 @@ main {
     background-repeat: no-repeat;
     background-size: 55rem;
     background-position-x: right;
-    height: 165.5vh;
+    height: 110vh;
     margin-top: 10rem;
+    /* background-position-y: bottom; */
 }
 .home .home_container{
     /* margin: auto; */
